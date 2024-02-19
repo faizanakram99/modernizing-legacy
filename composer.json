@@ -1,0 +1,25 @@
+{
+    "name": "faizanakram99/modernizing-legacy",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "^11.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Gounsch\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Gounsch\\Test\\": "tests"
+        }
+    },
+    "authors": [
+        {
+            "name": "Faizan Akram",
+            "email": "hello@faizanakram.me"
+        }
+    ],
+    "require": {}
+}
